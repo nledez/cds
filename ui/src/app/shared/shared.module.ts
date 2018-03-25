@@ -8,6 +8,7 @@ import {TokenListComponent} from './token/list/token.list.component';
 import {VariableValueComponent} from './variable/value/variable.value.component';
 import {VariableFormComponent} from './variable/form/variable.form';
 import {SharedService} from './shared.service';
+import {InfoLevelService} from './info/info.level.service';
 import {PermissionService} from './permission/permission.service';
 import {PermissionListComponent} from './permission/list/permission.list.component';
 import {PermissionFormComponent} from './permission/form/permission.form.component';
@@ -154,6 +155,7 @@ import {VCSStrategyComponent} from './vcs/vcs.strategy.component';
     providers: [
         DurationService,
         PermissionService,
+        InfoLevelService,
         SharedService,
         ToastService
     ],
